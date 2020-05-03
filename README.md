@@ -2,9 +2,18 @@
 Windows tools for comfier imageboard use.<br>
 
 Contents:<br>
--EpochRenamer.bat<br>
--Hasher.bat<br>
--RndCutie2Clip.bat<br>
+- Alphabet.bat<br>
+- EpochRenamer.bat<br>
+- Hasher.bat<br>
+- RndCutie2Clip.bat<br>
+
+----
+Alphabet.bat<br>
+Processes a user-provided string into animated letter APNG.<br>
+Usage: Alphabet<br>
+Currently only runs in interactive mode.<br>
+Dependencies: ffmpeg<br>
+Requirements: User-provided animated letters in Alphabet\ directory. More information about requirements in batch header.<br>
 
 ----
 EpochRenamer.bat<br>
@@ -18,10 +27,8 @@ Dependencies: none<br>
 ----
 Hasher.bat<br>
 Calls CertUtil to get MD5 hash of all files in directory.<br>
-Usage:<br>
-Hasher [full path to directory] [output file name (OPT)] [debug level (OPT)]<br>
-Example:<br>
-Hasher "C:\cutegirls\nodoka" HashOutput.txt 1<br>
+Usage: Hasher [full path to directory] [output file name (OPT)] [debug level (OPT)]<br>
+Example: Hasher "C:\cutegirls\nodoka" HashOutput.txt 1<br>
 More information available when calling Hasher --h<br>
 Dependencies: CertUtil (Windows built-in)<br>
 
